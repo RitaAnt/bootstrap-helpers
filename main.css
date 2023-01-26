@@ -1,0 +1,80 @@
+body, h1, h2, h3, h4, p, a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+
+}
+*{
+ box-sizing: content-box;
+}
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.header {
+  height: 100vh;
+  background-color: #eee;
+  background-image: url(header.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.overlay {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+}
+.header-title {
+  font-size: 140px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: auto;
+}
+
+.content{
+  font-size: 16px;
+  width: 800px;
+  margin: 100px auto 50px;
+}
+.card{
+  width: 350px;
+  margin: 60px auto;
+  padding: 45px 45px 30px;
+  display: inline-block;
+  transition: all .3s ease;
+  box-shadow: 10px 10px 10px rgba(107, 0, 166, .4);
+}
+.card:hover{
+    box-shadow: 13px 13px 13px rgba(107, 0, 166, .6);
+}
+.card-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.card-text{
+  font-size: 16px;
+}
+.card-image{
+  width: 100%;
+  margin-bottom: 25px;
+}
+.want{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: 1px solid black;
+    background-color: white;
+    outline: none;
+    transition: all .4s ease;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    padding: 10px 20px;
+    margin: 1px 2px;
+    font-size: 32px;
+}
+.want:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px rgba(0, 102, 255, .7);
+    opacity: 0.7;
+}
